@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-31 17:41:46 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\joshu\Code\sumo-str-sim\sumo_config\pr2_conf.net.xml"/>
+        <route-files value="C:\Users\joshu\Code\sumo-str-sim\sumo_config\pr2_conf.rou.xml"/>
+        <additional-files value="C:\Users\joshu\Code\sumo-str-sim\sumo_config\pr2_conf.add.xml,C:\Users\joshu\Code\sumo-str-sim\sumo_config\pr2_conf.med.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="C:\Users\joshu\Code\sumo-str-sim\sumo_config\output/vehroute.xml"/>
+        <lanechange-output value="C:\Users\joshu\Code\sumo-str-sim\sumo_config\output/lane_change.xml"/>
+        <edgedata-output value="C:\Users\joshu\Code\sumo-str-sim\sumo_config\output/edge.xml"/>
+    </output>
+
+    <routing>
+        <device.rerouting.probability value="1"/>
+    </routing>
+
+</configuration>
+-->
+
+<e3Detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e3_file.xsd">
+   <interval begin="0.00" end="69.00" id="e3_0" meanTravelTime="-1.00" meanOverlapTravelTime="-1.00" meanSpeed="-1.00" meanHaltsPerVehicle="-1.00" meanTimeLoss="-1.00" vehicleSum="0" meanSpeedWithin="28.97" meanHaltsPerVehicleWithin="0.00" meanDurationWithin="26.91" vehicleSumWithin="28" meanIntervalSpeedWithin="28.97" meanIntervalHaltsPerVehicleWithin="0.00" meanIntervalDurationWithin="26.91" meanTimeLossWithin="0.44"/>
+</e3Detector>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-31 17:41:46 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\joshu\Code\sumo-str-sim\sumo_config\pr2_conf.net.xml"/>
+        <route-files value="C:\Users\joshu\Code\sumo-str-sim\sumo_config\pr2_conf.rou.xml"/>
+        <additional-files value="C:\Users\joshu\Code\sumo-str-sim\sumo_config\pr2_conf.add.xml,C:\Users\joshu\Code\sumo-str-sim\sumo_config\pr2_conf.med.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="C:\Users\joshu\Code\sumo-str-sim\sumo_config\output/vehroute.xml"/>
+        <lanechange-output value="C:\Users\joshu\Code\sumo-str-sim\sumo_config\output/lane_change.xml"/>
+        <edgedata-output value="C:\Users\joshu\Code\sumo-str-sim\sumo_config\output/edge.xml"/>
+    </output>
+
+    <routing>
+        <device.rerouting.probability value="1"/>
+    </routing>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+</routes>

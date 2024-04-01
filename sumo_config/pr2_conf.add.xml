@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-31 17:41:43 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Calibrators -->
+    <calibrator id="ca_0" edge="419549215#0" pos="0.00" jamThreshold="0.20"/>
+    <!-- Detectors -->
+    <entryExitDetector id="e3_0" pos="740334.92,2041872.68" period="300.00" file="e3_0.xml">
+        <detEntry lane="78425166#0_1" pos="13.33"/>
+        <detEntry lane="78425166#0_0" pos="13.36"/>
+        <detExit lane="57947385#1_1" pos="145.04"/>
+        <detExit lane="57947385#1_0" pos="145.35"/>
+    </entryExitDetector>
+</additional>
