@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-01 22:46:03 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <laneAreaDetector id="de1" name="prin_1_0" lane="1151684338_0" pos="20.00" length="55.00" period="30.00" file="de1_simulador.xml"/>
+    <laneAreaDetector id="de2" name="prin_1_1" lane="1151684338_1" pos="20.00" length="55.00" period="30.00" file="de2_simulador.xml"/>
+    <laneAreaDetector id="de3" name="prin_2" lane="1056713157_0" pos="30.00" length="60.00" period="30.00" file="de3_simulador.xml"/>
+    <laneAreaDetector id="de4" name="dtl_1" lane="419549215#1_0" pos="30.00" length="60.00" period="30.00" file="de4_simulador.xml" friendlyPos="1"/>
+    <!-- Other additionals -->
+    <rerouter id="rerouter0" edges="57898370 55177157" pos="790121.58,2038674.62" probability="0.30">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="55177157" probability="1.00"/>
+        </interval>
+    </rerouter>
+</additional>
