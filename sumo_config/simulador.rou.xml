@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-02 10:55:08 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-04-02 19:22:37 by Eclipse SUMO netedit Version 1.19.0
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <!-- VTypes -->
     <vType id="DEFAULT_VEHTYPE" minGap="1.50" laneChangeModel="LC2013" carFollowModel="W99" cc1="0.90" cc2="4.00" cc3="-8.00" cc4="-0.35" cc6="11.44" cc8="3.50"/>
     <!-- Vehicles, persons and containers (sorted by depart) -->
-    <flow id="f_0" begin="0.00" color="red" from="199513334" to="57947376#1" via="55177153#2" end="3600.00" vehsPerHour="2000"/>
-    <flow id="f_1" begin="0.00" color="green" from="22151872#0" to="57947376#1" via="202286756#0" end="3600.00" vehsPerHour="2000"/>
-    <flow id="f_2" begin="0.00" color="magenta" from="22149284#0" to="57947376#1" via="202286756#0" end="3600.00" vehsPerHour="2000"/>
-    <flow id="f_3" begin="0.00" from="-55122634#1" to="57947376#1" via="57898365" end="3600.00" vehsPerHour="2000"/>
-    <flow id="f_4" begin="0.00" from="309376364#0" to="57947376#1" via="60340391#1" end="3600.00" vehsPerHour="2000"/>
+    <flow id="f_0" begin="0.00" color="red" from="419549209#1" to="57947376#1" via="55177153#2" end="3600.00" vehsPerHour="2599.27797833935028393171"/>
+  
+    <flow id="f_1" begin="0.00" color="0,66,255" from="22149695#1" to="57947376#1" via="202286756#0" end="3600.00" vehsPerHour="1500"/>
 </routes>
