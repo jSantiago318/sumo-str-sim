@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-28 16:01:21 by Eclipse SUMO sumo Version 1.19.0
+<!-- generated on 2024-04-28 16:33:21 by Eclipse SUMO sumo Version 1.19.0
 -->
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
@@ -8,6 +8,7 @@
     <input>
         <net-file value="sumo_sim.net.xml"/>
         <route-files value="sumo_sim.rou.xml"/>
+        <additional-files value="sumo_sim.add.xml"/>
     </input>
 
 </configuration>
