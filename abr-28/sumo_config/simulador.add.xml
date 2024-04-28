@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-17 16:35:37 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Calibrators -->
+    <calibrator id="ca_0" edge="419549215#0" pos="0.00" jamThreshold="0.70"/>
+    <!-- Detectors -->
+    <laneAreaDetector id="conteo1_0" name="conteo_predtl_1_0" lane="57898381#0_0" pos="100.00" length="50.00" period="5.00" file="conteo1_0_simulador.xml"/>
+    <laneAreaDetector id="conteo1_1" name="conteo_predtl_1_1" lane="57898381#0_1" pos="100.00" length="50.00" period="5.00" file="conteo1_1_simulador.xml"/>
+    <laneAreaDetector id="conteo2_0" name="conteo_predtl_2_0" lane="22149695#1_0" pos="100.00" length="50.00" period="5.00" file="conteo2_0_simulador.xml"/>
+    <laneAreaDetector id="conteo2_1" name="conteo_predtl_2_1" lane="22149695#1_1" pos="100.00" length="50.00" period="5.00" file="conteo2_1_simulador.xml"/>
+    <laneAreaDetector id="conteo3_0" name="conteo_predt3_1_0" lane="1151675807_0" pos="100.00" length="50.00" period="5.00" file="conteo3_0_simulador.xml"/>
+    <laneAreaDetector id="conteo3_1" name="conteo_predt3_1_1" lane="1151675807_1" pos="100.00" length="50.00" period="5.00" file="conteo3_1_simulador.xml"/>
+    <laneAreaDetector id="de1" name="prin_1_0" lane="1151684338_0" pos="20.00" length="55.00" period="5.00" file="antes_dtl_0_simulador.xml"/>
+    <laneAreaDetector id="de2" name="prin_1_1" lane="1151684338_1" pos="20.00" length="55.00" period="5.00" file="antes_dtl_1_simulador.xml"/>
+    <laneAreaDetector id="de3" name="prin_2" lane="1056713157_0" pos="30.00" length="60.00" period="5.00" file="entrada_1_dtl_simulador.xml"/>
+    <laneAreaDetector id="de3_1" name="prin_2" lane="1056713162_0" pos="10.00" length="60.00" period="5.00" file="entrada_2_dtl_simulador.xml"/>
+    <laneAreaDetector id="de4" name="dtl_1" lane="419549215#1_0" pos="30.00" length="60.00" period="5.00" file="despues_entrada_1_dtl_0_simulador.xml"/>
+    <laneAreaDetector id="de5" name="dtl_2" lane="419549215#1_1" pos="30.00" length="60.00" period="5.00" file="despues_entrada_1_dtl_1_simulador.xml"/>
+    <laneAreaDetector id="de6" name="dtl_3" lane="1151684344#1_2" pos="30.00" length="60.00" period="5.00" file="despues_entrada_2_dtl_2_simulador.xml"/>
+    <laneAreaDetector id="de7" name="dtl_4" lane="1151684344#1_1" pos="30.00" length="60.00" period="5.00" file="despues_entrada_2_dtl_1_simulador.xml"/>
+    <laneAreaDetector id="de8" name="dtl_5" lane="1151684344#1_0" pos="30.00" length="60.00" period="5.00" file="despues_entrada_2_dtl_0_simulador.xml"/>
+    <!-- Other additionals -->
+    <rerouter id="entrada_1_dtl" edges="57898374#1 55177157" pos="790121.58,2038674.62" probability="0.25">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="55177157" probability="0.25"/>
+        </interval>
+    </rerouter>
+    <rerouter id="entrada_2_dtl" edges="57898374#1 1056713163#1" pos="790121.58,2038674.62" probability="0.25">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="1056713163#1" probability="0.25"/>
+        </interval>
+    </rerouter>
+</additional>
