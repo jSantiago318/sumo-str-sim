@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-17 16:35:37 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-05-07 12:01:16 by Eclipse SUMO netedit Version 1.19.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <!-- Calibrators -->
-    <!-- <calibrator id="ca_0" edge="419549215#0" pos="0.00" jamThreshold="0.70"/> -->
-    <!-- Detectors -->
-    <!-- <laneAreaDetector id="conteo1_0" name="conteo_predtl_1_0" lane="57898381#0_0" pos="100.00" length="50.00" period="5.00" file="conteo1_0_simulador.xml"/> -->
-    <!-- <laneAreaDetector id="conteo1_1" name="conteo_predtl_1_1" lane="57898381#0_1" pos="100.00" length="50.00" period="5.00" file="conteo1_1_simulador.xml"/> -->
-      <!-- Other additionals -->
+    <!-- Other additionals -->
     <rerouter id="entrada_1_dtl" edges="57898381#1 1056713163#0" pos="790121.58,2038674.62" probability="0.25">
         <interval begin="0.00" end="3600.00">
             <destProbReroute id="1056713163#0" probability="0.25"/>
