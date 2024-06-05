@@ -827,3 +827,6 @@
     <interval begin="8160.00" end="8220.00" id="fullData">
         <edge id="E2" sampledSeconds="156.21" traveltime="159.26" overlapTraveltime="159.70" density="1.62" laneDensity="0.81" occupancy="0.40" waitingTime="0.00" timeLoss="9.37" speed="10.11" speedRelative="0.73" departed="0" arrived="4" entered="0" left="0" laneChangedFrom="1" laneChangedTo="1"/>
     </interval>
+    <interval begin="8220.00" end="8232.00" id="fullData">
+        <edge id="E2" sampledSeconds="11.79" traveltime="165.65" overlapTraveltime="165.93" density="0.61" laneDensity="0.31" occupancy="0.15" waitingTime="0.00" timeLoss="0.51" speed="9.73" speedRelative="0.70" departed="0" arrived="1" entered="0" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+    </interval>

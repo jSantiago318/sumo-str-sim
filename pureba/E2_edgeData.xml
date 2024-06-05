@@ -834,3 +834,8 @@
             <lane id="E2_1" sampledSeconds="20.58" traveltime="144.16" overlapTraveltime="144.54" density="0.21" laneDensity="0.21" occupancy="0.11" waitingTime="0.00" timeLoss="1.23" speed="11.17" speedRelative="0.80" departed="0" arrived="1" entered="0" left="0" laneChangedFrom="0" laneChangedTo="1"/>
         </edge>
     </interval>
+    <interval begin="8220.00" end="8232.00" id="e2laneData">
+        <edge id="E2">
+            <lane id="E2_0" sampledSeconds="11.79" traveltime="165.65" overlapTraveltime="165.93" density="0.61" laneDensity="0.61" occupancy="0.30" waitingTime="0.00" timeLoss="0.51" speed="9.73" speedRelative="0.70" departed="0" arrived="1" entered="0" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+        </edge>
+    </interval>
