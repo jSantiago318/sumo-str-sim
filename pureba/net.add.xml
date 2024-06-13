@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-06-05 18:17:10 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-06-11 13:43:18 by Eclipse SUMO netedit Version 1.19.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
@@ -9,12 +9,12 @@
     <laneAreaDetector id="c1_izq" lane="E7_1" pos="10.67" length="1500.00" period="5.00" file="c1_izq.xml"/>
     <laneAreaDetector id="c2_der" lane="E7.142_0" pos="10.67" length="750.00" period="5.00" file="c2_der.xml"/>
     <laneAreaDetector id="c2_izq" lane="E7.142_1" pos="10.67" length="750.00" period="5.00" file="c2_izq.xml"/>
-    <laneAreaDetector id="c3_der" lane="E2_0" pos="10.67" length="1400.00" period="5.00" file="c3_der.xml"/>
-    <laneAreaDetector id="c3_izq" lane="E2_1" pos="10.67" length="1400.00" period="5.00" file="c3_izq.xml"/>
+    <laneAreaDetector id="c3_der" lane="E2_0" pos="10.67" length="1500.00" period="5.00" file="c3_der.xml"/>
+    <laneAreaDetector id="c3_izq" lane="E2_1" pos="10.67" length="1500.00" period="5.00" file="c3_izq.xml"/>
     <laneAreaDetector id="ent_1" lane="E1_0" pos="10.00" length="200.00" period="5.00" file="ent_1.xml"/>
-    <laneAreaDetector id="salida_1" lane="E0_0" pos="10.00" length="200.00" period="5.00" file="salida_1.xml"/>
+    <laneAreaDetector id="salida_1" lane="E0_0" pos="5.00" length="200.00" period="5.00" file="salida_1.xml"/>
     <!-- Other additionals -->
-    <rerouter id="salida" edges="E7 E0" pos="10.00,10.00" probability="0.25">
+    <rerouter id="salida" edges="E7 E0" pos="10.00,10.00" probability="0.40">
         <interval begin="0.00" end="3600.00">
             <destProbReroute id="E0" probability="0.25"/>
         </interval>

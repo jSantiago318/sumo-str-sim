@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-06-05 18:17:10 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-06-11 13:43:18 by Eclipse SUMO netedit Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
         <sumocfg-file value="C:\Users\joshu\Code\sumo-str-sim\pureba\sumoNet.sumocfg"/>
         <additional-files value="C:\Users\joshu\Code\sumo-str-sim\pureba\net.add.xml"/>
         <route-files value="C:\Users\joshu\Code\sumo-str-sim\pureba\net.rou.xml"/>
+        <meandata-files value="C:\Users\joshu\Code\sumo-str-sim\pureba\sumoNet.med.add.xml"/>
         <sumo-net-file value="C:\Users\joshu\Code\sumo-str-sim\pureba\net.net.xml"/>
     </input>
 
@@ -89,9 +90,9 @@
     <junction id="J8" type="dead_end" x="-264.12" y="104.39" incLanes="" intLanes="" shape="-264.12,104.39 -264.12,97.99"/>
 
     <connection from="E1" to="E2" fromLane="0" toLane="0" via=":J11_0_0" dir="r" state="m"/>
-    <connection from="E7" to="E0" fromLane="0" toLane="0" via=":J14_0_0" dir="r" state="M"/>
-    <connection from="E7" to="E7.142" fromLane="0" toLane="0" via=":J14_1_0" dir="s" state="M"/>
-    <connection from="E7" to="E7.142" fromLane="1" toLane="1" via=":J14_1_1" dir="s" state="M"/>
+    <connection from="E7" to="E0" fromLane="0" toLane="0" keepClear="0" via=":J14_0_0" dir="r" state="M"/>
+    <connection from="E7" to="E7.142" fromLane="0" toLane="0" keepClear="0" via=":J14_1_0" dir="s" state="M"/>
+    <connection from="E7" to="E7.142" fromLane="1" toLane="1" keepClear="0" via=":J14_1_1" dir="s" state="M"/>
     <connection from="E7.142" to="E2" fromLane="0" toLane="0" via=":J11_1_0" dir="s" state="M"/>
     <connection from="E7.142" to="E2" fromLane="1" toLane="1" via=":J11_1_1" dir="s" state="M"/>
 

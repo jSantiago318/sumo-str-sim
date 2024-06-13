@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-06-05 18:17:10 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-06-11 12:46:33 by Eclipse SUMO netedit Version 1.19.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- MeanDataEdges -->
-    <edgeData id="fullData" file="fullData.xml" period="60.00" begin="0" end="3600000000000" excludeEmpty="true"/>
+    <edgeData id="fullData" file="fullData.xml" period="60.00" begin="0" end="3600000000000000" excludeEmpty="true"/>
     <!-- MeanDataLanes -->
-    <laneData id="e7laneData" file="E7_edgeData.xml"  edges="E7" period="60.00" begin="0" end="3600000000000" excludeEmpty="true"/>
-    <laneData id="e0laneData" file="E0_edgeData.xml"  edges="E0" period="60.00" begin="0" end="3600000000000" excludeEmpty="true"/>
-    <laneData id="e71laneData" file="E7.143_edgeData.xml"  edges="E7.142" period="60.00" begin="0" end="3600000000000" excludeEmpty="true"/>
-    <laneData id="e2laneData" file="E2_edgeData.xml"  edges="E2" period="60.00" begin="0" end="3600000000000" excludeEmpty="true"/>
-    <laneData id="e1laneData" file="E1_edgeData.xml"  edges="E1" period="60.00" begin="0" end="3600000000000" excludeEmpty="true"/>
+    <laneData id="e0laneData" file="E0_edgeData.xml" period="60.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E0"/>
+    <laneData id="e1laneData" file="E1_edgeData.xml" period="60.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E1"/>
+    <laneData id="e2laneData" file="E2_edgeData.xml" period="60.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E2"/>
+    <laneData id="e71laneData" file="E7.143_edgeData.xml" period="60.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E7.142"/>
+    <laneData id="e7laneData" file="E7_edgeData.xml" period="60.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E7"/>
 </additional>
