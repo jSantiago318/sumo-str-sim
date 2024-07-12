@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-06-05 18:17:10 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-07-08 23:52:58 by Eclipse SUMO netedit Version 1.20.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- MeanDataEdges -->
-    <edgeData id="fullData" file="fullData.xml" period="60.00" begin="0" end="3600000000000" excludeEmpty="true"/>
+    <edgeData id="fullData" file="fullData.xml" period="10.00" begin="0" end="3600000000000000" excludeEmpty="true"/>
     <!-- MeanDataLanes -->
-    <laneData id="e7laneData" file="E7_edgeData.xml"  edges="E7" period="60.00" begin="0" end="3600000000000" excludeEmpty="true"/>
-    <laneData id="e0laneData" file="E0_edgeData.xml"  edges="E0" period="60.00" begin="0" end="3600000000000" excludeEmpty="true"/>
-    <laneData id="e71laneData" file="E7.143_edgeData.xml"  edges="E7.142" period="60.00" begin="0" end="3600000000000" excludeEmpty="true"/>
-    <laneData id="e2laneData" file="E2_edgeData.xml"  edges="E2" period="60.00" begin="0" end="3600000000000" excludeEmpty="true"/>
-    <laneData id="e1laneData" file="E1_edgeData.xml"  edges="E1" period="60.00" begin="0" end="3600000000000" excludeEmpty="true"/>
+    <laneData id="dataEntrada_1" file="dataEntrada_1.xml" period="10.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="entrada_1"/>
+    <laneData id="dataSalida_1" file="dataSalida_1.xml" period="10.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="salida_1"/>
+    <laneData id="dataFinal_1" file="dataFinal_1.xml" period="10.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="sensor_final"/>
+    <laneData id="e71laneData" file="E7.143_edgeData.xml" period="10.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E7.142"/>
+    <laneData id="e7laneData" file="E7_edgeData.xml" period="10.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E7"/>
 </additional>

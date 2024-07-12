@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-07-09 12:30:58 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <laneAreaDetector id="entrada" name="entrada" lane="carril_entrada_0" pos="100.00" length="100.00" period="300.00" file="entrada.xml"/>
+    <laneAreaDetector id="sensor_final" name="sensor_final" lanes="carril_2_1 carril_3_1" pos="200.00" endPos="100.00" period="300.00" file="sensor_final.xml"/>
+    <laneAreaDetector id="sensor_final_2" name="sensor_final_2" lanes="carril_2_0 carril_3_0" pos="200.00" endPos="100.00" period="300.00" file="sensor_final_2.xml"/>
+    <laneAreaDetector id="sensor_inicio" name="sensor_inicio" lanes="carril_1_1 carril_2_1" pos="1480.00" endPos="40.00" period="300.00" file="sensor_inicio.xml"/>
+    <laneAreaDetector id="sensor_inicio_2" name="sensor_inicio_2" lanes="carril_1_0 carril_2_0" pos="1484.11" endPos="40.00" period="300.00" file="sensor_inicio_2.xml"/>
+    <laneAreaDetector id="sensor_med" name="sensor_med" lane="carril_2_1" pos="220.00" length="100.00" period="300.00" file="sensor_med.xml"/>
+    <laneAreaDetector id="sensor_med_2" name="sensor_med_2" lane="carril_2_0" pos="220.00" length="100.00" period="300.00" file="sensor_med_2.xml"/>
+    <laneAreaDetector id="sensor_salida" name="sensor_salida" lane="carril_salida_0" pos="10.00" length="143.96" period="300.00" file="sensor_salida.xml"/>
+    <!-- Other additionals -->
+    <rerouter id="salida" edges="carril_1 carril_salida" pos="-100.00,10.00" probability="0.25">
+        <interval begin="0.00" end="7200.00">
+            <destProbReroute id="carril_salida" probability="0.30"/>
+        </interval>
+    </rerouter>
+</additional>
