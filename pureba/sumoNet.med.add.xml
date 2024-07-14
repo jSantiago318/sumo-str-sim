@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<<<<<<< HEAD
 <!-- generated on 2024-07-08 23:52:58 by Eclipse SUMO netedit Version 1.20.0
+=======
+<!-- generated on 2024-06-11 12:46:33 by Eclipse SUMO netedit Version 1.19.0
+>>>>>>> b60d75b16a519fdde8bc8891b23b3e0b016c8c72
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- MeanDataEdges -->
+<<<<<<< HEAD
     <edgeData id="fullData" file="fullData.xml" period="10.00" begin="0" end="3600000000000000" excludeEmpty="true"/>
     <!-- MeanDataLanes -->
     <laneData id="dataEntrada_1" file="dataEntrada_1.xml" period="10.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="entrada_1"/>
@@ -12,4 +17,13 @@
     <laneData id="dataFinal_1" file="dataFinal_1.xml" period="10.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="sensor_final"/>
     <laneData id="e71laneData" file="E7.143_edgeData.xml" period="10.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E7.142"/>
     <laneData id="e7laneData" file="E7_edgeData.xml" period="10.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E7"/>
+=======
+    <edgeData id="fullData" file="fullData.xml" period="60.00" begin="0" end="3600000000000000" excludeEmpty="true"/>
+    <!-- MeanDataLanes -->
+    <laneData id="e0laneData" file="E0_edgeData.xml" period="60.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E0"/>
+    <laneData id="e1laneData" file="E1_edgeData.xml" period="60.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E1"/>
+    <laneData id="e2laneData" file="E2_edgeData.xml" period="60.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E2"/>
+    <laneData id="e71laneData" file="E7.143_edgeData.xml" period="60.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E7.142"/>
+    <laneData id="e7laneData" file="E7_edgeData.xml" period="60.00" begin="0" end="3600000000000000" excludeEmpty="true" edges="E7"/>
+>>>>>>> b60d75b16a519fdde8bc8891b23b3e0b016c8c72
 </additional>
