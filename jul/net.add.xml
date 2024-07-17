@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-07-09 12:30:58 by Eclipse SUMO netedit Version 1.20.0
+<!-- generated on 2024-07-16 14:47:09 by Eclipse SUMO netedit Version 1.19.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-   <!-- Other additionals -->
-    <rerouter id="salida" edges="E0 E3" pos="-100.00,10.00" probability="0.25">
+    <!-- Detectors -->
+    <laneAreaDetector id="det_centro_der_1" lane="E2_0" pos="363.77" length="50.00" period="300.00" file="det_centro_der.xml"/>
+    <laneAreaDetector id="det_centro_izq_1" lane="E2_1" pos="363.78" length="50.00" period="300.00" file="det_centro_centro_izq.xml"/>
+    <laneAreaDetector id="detector entrada" lane="E6_0" pos="100.00" length="50.00" period="300.00" file="det_entrada.xml"/>
+    <laneAreaDetector id="detector_carr_der_1" lanes="E0_0 E1_1 E2_0" pos="345.40" endPos="5.94" period="300.00" file="detector_carr_der_1.xml"/>
+    <laneAreaDetector id="detector_carr_izq_1" lanes="E0_1 E1_2 E2_1" pos="343.99" endPos="11.66" period="300.00" file="detector_carr_izq_1.xml"/>
+    <laneAreaDetector id="detector_carr_izq_2" lanes="E2_1 E4_2 E5_1" pos="161.72" endPos="7.43" period="300.00" file="detector_carr_izq_2.xml"/>
+    <laneAreaDetector id="detector_carril_der_2" lanes="E2_0 E4_1 E5_0" pos="161.01" endPos="19.74" period="300.00" file="detector_carril_der_2.xml"/>
+    <laneAreaDetector id="detector_salida" lane="E3_0" pos="39.29" length="50.00" period="300.00" file="det_salida.xml"/>
+    <!-- Other additionals -->
+    <!-- id: propio_objeto edges: id_punto_inicio, id_punto_final posicion: posicion_inicial, posicion_final, probabilidad de redireccion-->
+    <rerouter id="salida" edges="E0 E3" pos="-100.00,10.00" probability="0.13">
         <interval begin="0.00" end="7200.00">
             <destProbReroute id="E3" probability="0.30"/>
         </interval>

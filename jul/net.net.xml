@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-07-14 16:45:52 by Eclipse SUMO netedit Version 1.20.0
+<!-- generated on 2024-07-16 16:13:36 by Eclipse SUMO netedit Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <sumocfg-file value="C:\Users\joshu\Code\sumo-str-sim\jul\sum.sumocfg"/>
-        <additional-files value="C:\Users\joshu\Code\sumo-str-sim\jul\net.add.xml"/>
-        <route-files value="C:\Users\joshu\Code\sumo-str-sim\jul\net.rou.xml"/>
-        <sumo-net-file value="C:\Users\joshu\Code\sumo-str-sim\jul\net.net.xml"/>
+        <sumocfg-file value="/Users/joshuasantiago/Code/sumo-str-sim/jul/sum.sumocfg"/>
+        <additional-files value="/Users/joshuasantiago/Code/sumo-str-sim/jul/net.add.xml"/>
+        <route-files value="/Users/joshuasantiago/Code/sumo-str-sim/jul/net.rou.xml"/>
+        <sumo-net-file value="/Users/joshuasantiago/Code/sumo-str-sim/jul/net.net.xml"/>
     </input>
 
     <output>
-        <human-readable-time value="0"/>
-        <output-file value="C:\Users\joshu\Code\sumo-str-sim\jul\net.net.xml"/>
+        <output-file value="/Users/joshuasantiago/Code/sumo-str-sim/jul/net.net.xml"/>
     </output>
 
     <processing>
@@ -36,7 +35,7 @@
 </configuration>
 -->
 
-<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
 
     <location netOffset="0.00,0.00" convBoundary="-379.43,-37.00,694.47,64.26" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
 
@@ -64,33 +63,33 @@
         <lane id=":J5_0_1" index="1" speed="13.89" length="8.00" shape="251.00,62.46 259.00,62.46"/>
     </edge>
 
-    <edge id="E0" from="J0" to="J1" priority="-1" length="426.72">
-        <lane id="E0_0" index="0" speed="13.89" length="426.72" shape="-379.43,59.13 -32.44,59.46"/>
-        <lane id="E0_1" index="1" speed="13.89" length="426.72" shape="-379.43,62.33 -32.44,62.66"/>
+    <edge id="E0" from="J0" to="J1" priority="-1" length="1600.00">
+        <lane id="E0_0" index="0" speed="13.89" length="1600.00" shape="-379.43,59.13 -32.44,59.46"/>
+        <lane id="E0_1" index="1" speed="13.89" length="1600.00" shape="-379.43,62.33 -32.44,62.66"/>
     </edge>
-    <edge id="E1" from="J1" to="J2" priority="-1" length="60.96">
-        <lane id="E1_0" index="0" speed="13.89" length="60.96" acceleration="1" shape="-24.46,56.24 19.94,56.00"/>
-        <lane id="E1_1" index="1" speed="13.89" length="60.96" shape="-24.45,59.44 19.95,59.20"/>
-        <lane id="E1_2" index="2" speed="13.89" length="60.96" shape="-24.43,62.64 19.97,62.40"/>
+    <edge id="E1" from="J1" to="J2" priority="-1" length="200.00">
+        <lane id="E1_0" index="0" speed="13.89" length="200.00" acceleration="1" shape="-24.46,56.24 19.94,56.00"/>
+        <lane id="E1_1" index="1" speed="13.89" length="200.00" shape="-24.45,59.44 19.95,59.20"/>
+        <lane id="E1_2" index="2" speed="13.89" length="200.00" shape="-24.43,62.64 19.97,62.40"/>
     </edge>
-    <edge id="E2" from="J2" to="J3" priority="-1" length="243.84">
-        <lane id="E2_0" index="0" speed="13.89" length="243.84" shape="28.78,59.18 196.08,59.28"/>
-        <lane id="E2_1" index="1" speed="13.89" length="243.84" shape="28.78,62.38 196.08,62.48"/>
+    <edge id="E2" from="J2" to="J3" priority="-1" length="804.00">
+        <lane id="E2_0" index="0" speed="13.89" length="804.00" shape="28.78,59.18 196.08,59.28"/>
+        <lane id="E2_1" index="1" speed="13.89" length="804.00" shape="28.78,62.38 196.08,62.48"/>
     </edge>
-    <edge id="E3" from="J2" to="J4" priority="-1" length="60.96">
-        <lane id="E3_0" index="0" speed="13.89" length="60.96" shape="25.36,51.68 44.98,-32.33"/>
+    <edge id="E3" from="J2" to="J4" priority="-1" length="200.00">
+        <lane id="E3_0" index="0" speed="13.89" length="200.00" shape="25.36,51.68 44.98,-32.33"/>
     </edge>
-    <edge id="E4" from="J3" to="J5" priority="-1" length="60.96">
-        <lane id="E4_0" index="0" speed="13.89" length="60.96" acceleration="1" shape="204.88,56.08 251.00,56.06"/>
-        <lane id="E4_1" index="1" speed="13.89" length="60.96" shape="204.88,59.28 251.00,59.26"/>
-        <lane id="E4_2" index="2" speed="13.89" length="60.96" shape="204.88,62.48 251.00,62.46"/>
+    <edge id="E4" from="J3" to="J5" priority="-1" length="200.00">
+        <lane id="E4_0" index="0" speed="13.89" length="200.00" acceleration="1" shape="204.88,56.08 251.00,56.06"/>
+        <lane id="E4_1" index="1" speed="13.89" length="200.00" shape="204.88,59.28 251.00,59.26"/>
+        <lane id="E4_2" index="2" speed="13.89" length="200.00" shape="204.88,62.48 251.00,62.46"/>
     </edge>
-    <edge id="E5" from="J5" to="J6" priority="-1" length="426.72">
-        <lane id="E5_0" index="0" speed="13.89" length="426.72" shape="259.00,59.26 694.47,59.22"/>
-        <lane id="E5_1" index="1" speed="13.89" length="426.72" shape="259.00,62.46 694.47,62.42"/>
+    <edge id="E5" from="J5" to="J6" priority="-1" length="1600.00">
+        <lane id="E5_0" index="0" speed="13.89" length="1600.00" shape="259.00,59.26 694.47,59.22"/>
+        <lane id="E5_1" index="1" speed="13.89" length="1600.00" shape="259.00,62.46 694.47,62.42"/>
     </edge>
-    <edge id="E6" from="J7" to="J3" priority="-1" length="60.96">
-        <lane id="E6_0" index="0" speed="13.89" length="60.96" shape="177.64,-37.38 199.44,51.81"/>
+    <edge id="E6" from="J7" to="J3" priority="-1" length="200.00">
+        <lane id="E6_0" index="0" speed="13.89" length="200.00" shape="177.64,-37.38 199.44,51.81"/>
     </edge>
 
     <junction id="J0" type="dead_end" x="-379.43" y="63.93" incLanes="" intLanes="" shape="-379.43,63.93 -379.42,57.53"/>
