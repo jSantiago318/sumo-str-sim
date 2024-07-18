@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-15 16:37:09 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-07-18 13:29:01 by Eclipse SUMO netedit Version 1.20.0
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_VEHTYPE" minGap="1.50" color="0,128,0" laneChangeModel="LC2013" carFollowModel="W99" cc1="0.90" cc2="4.00" cc3="-8.00" cc4="-0.35" cc6="11.44" cc8="3.50"/>
     <!-- Vehicles, persons and containers (sorted by depart) -->
-    <!-- f_0 -> direccion SJ a Arecibo -->
-    <flow id="f_0" begin="0.00" from="217179738" to="419549213#1"    end="3600.00" vehsPerHour="1699.71671388101981392538"/> 
-    <!-- f_1 -> Arecibo a SJ (principal) -->
-    <flow id="f_1" begin="0.00" from="22149695#1" to="57947376#1" via="59969000" end="3600.00" vehsPerHour="2000"/>
-    <!-- f_2 -> Arecibo a SJ rampa -->
-    <flow id="f_2" begin="0.00" from="419549209#1" to="57947376#1" via="59969000" end="3600.00" vehsPerHour="1699.71671388101981392538"/>
+    <flow id="f_2" begin="0.00" from="1081642241" to="57947376#1" via="59969000" end="7200.00" vehsPerHour="2825.74568288854015918332"/>
+    <flow id="f_ent_1_pre_dtl" begin="0.00" color="128,0,0" from="419541446#1" to="57947376#1" via="59969000" end="7200.00" vehsPerHour="408.99795501022498456223"/>
+    <flow id="f_ent_2_pre_dtl" begin="0.00" color="128,0,0" from="419549219" to="57947376#1" via="59969000" end="7200.00" vehsPerHour="1210.084033613445399169"/>
+    <flow id="f_ent_3_pre_dtl" begin="0.00" color="128,0,0" from="22149695#1" to="57947376#1" via="59969000" end="7200.00" vehsPerHour="1200.80053368912604128127"/>
 </routes>
