@@ -1,39 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-07-18 03:10:25 by Eclipse SUMO netedit Version 1.20.0
+<!-- generated on 2024-08-06 11:19:27 by Eclipse SUMO netedit Version 1.20.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- Detectors -->
-    <entryExitDetector id="det_inicio_dtl" pos="790599.01,2038710.72" period="300.00" file="det_inicio_dtl.xml">
-        <detEntry lane="1056713157_0" pos="111.94"/>
-        <detEntry lane="1056713162_0" pos="125.90"/>
-        <detExit lane="1056713163#2_1" pos="675.62"/>
-        <detExit lane="1056713163#2_0" pos="673.41"/>
+    <inductionLoop id="conteo_salida1" lane="414446177#1_0" pos="2.50" period="300.00" file="conteo_salida1.xml"/>
+    <entryExitDetector id="conteo_659_pre_dtl" pos="788478.53,2038794.16" period="300.00" file="conteo_659_pre_dtl.xml">
+        <detEntry lane="57898374#0_1" pos="1312.99"/>
+        <detEntry lane="57898374#0_0" pos="1311.93"/>
+        <detExit lane="57898374#0_1" pos="1351.04"/>
+        <detExit lane="57898374#0_0" pos="1351.19"/>
     </entryExitDetector>
-    <entryExitDetector id="det_pre_dtl_1" pos="784823.51,2039273.95" period="300.00" file="det_pre_dtl_1.xml">
-        <detEntry lane="419549209#0_1" pos="947.34"/>
-        <detEntry lane="419549209#0_0" pos="948.02"/>
-        <detExit lane="419549209#0_1" pos="982.27"/>
-        <detExit lane="419549209#0_0" pos="982.23"/>
+    <entryExitDetector id="conteo_out_dtl_866" name="conteo_out_dtl_866" pos="797110.44,2038887.73" period="300.00" file="conteo_out_dtl_866.xml">
+        <detEntry lane="60340391#1_1" pos="15.92"/>
+        <detEntry lane="60340391#1_0" pos="14.83"/>
+        <detExit lane="60340391#1_1" pos="52.74"/>
+        <detExit lane="60340391#1_0" pos="52.45"/>
+    </entryExitDetector>
+    <entryExitDetector id="conteo_post_dtl" name="conteo_post_dtl" pos="797681.44,2038900.67" period="300.00" file="conteo_out_dtl_866.xml">
+        <detEntry lane="202286752_0" pos="500.82"/>
+        <detEntry lane="202286752_1" pos="501.38"/>
+        <detEntry lane="1056713191_1" pos="59.79"/>
+        <detEntry lane="1056713191_0" pos="59.10"/>
+        <detExit lane="202286752_0" pos="460.18"/>
+        <detExit lane="202286752_1" pos="460.66"/>
+        <detExit lane="1056713191_1" pos="99.68"/>
+        <detExit lane="1056713191_0" pos="99.68"/>
     </entryExitDetector>
     <!-- Other additionals -->
-    <rerouter id="entrada_1_dtl" edges="57898374#1 1056713163#2" pos="790121.58,2038674.62" probability="0.25">
-        <interval begin="0.00" end="7200.00">
-            <destProbReroute id="1056713163#2" probability="0.25"/>
+    <rerouter id="entrada_1_dtl" edges="57898374#1 1056713163#2" pos="790121.58,2038674.62" probability="0.11">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="1056713163#2" probability="0.11"/>
         </interval>
     </rerouter>
-
-    <!-- salida 1 de pr-2  -->
+    <rerouter id="salida_165_pree_dtl" edges="57898370 419561979" pos="790121.58,2038674.62" probability="0.01">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="419561979" probability="0.01"/>
+        </interval>
+    </rerouter>
     <rerouter id="salida_1_pre_dtl" edges="1081642241 414446177#1" pos="790121.58,2038674.62" probability="0.13">
-        <interval begin="0.00" end="7200.00">
+        <interval begin="0.00" end="3600.00">
             <destProbReroute id="414446177#1" probability="0.13"/>
         </interval>
     </rerouter>
-    <!-- salida 1 de 694 -->
-    <rerouter id="salida_2_pre_dtl" edges="419549209#0 22151813#1" pos="790121.58,2038674.62" probability="0.038">
-        <interval begin="0.00" end="7200.00">
-            <destProbReroute id="22151813#1" probability="0.038"/>
+    <rerouter id="salida_2_pre_dtl" edges="419549209#0 22151813#1" pos="790121.58,2038674.62" probability="0.04">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="22151813#1" probability="0.04"/>
+        </interval>
+    </rerouter>
+    <rerouter id="salida_659_pree_dtl" edges="57898374#0 22151565#6" pos="790121.58,2038674.62" probability="0.05">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="22151565#6" probability="0.05"/>
+        </interval>
+    </rerouter>
+    <rerouter id="salida_865_post_dtl" edges="59969000 22234894" pos="790121.58,2038674.62" probability="0.02">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="22234894" probability="0.02"/>
+        </interval>
+    </rerouter>
+    <rerouter id="salida_866_post_dtl" edges="22122457#0 40784902" pos="790121.58,2038674.62" probability="0.11">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="40784902" probability="0.11"/>
+        </interval>
+    </rerouter>
+    <rerouter id="salida_167_post_dtl" edges="202286756#0 22114783" pos="790121.58,2038674.62" probability="0.11">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="22114783" probability="0.11"/>
+        </interval>
+    </rerouter>
+    <rerouter id="salida_5_post_dtl_2" edges="55177097 202286769" pos="790121.58,2038674.62" probability="0.10">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="202286769" probability="0.10"/>
+        </interval>
+    </rerouter>
+    <rerouter id="salida_5_post_dtl" edges="55177157 417377492#2" pos="790121.58,2038674.62" probability="0.40">
+        <interval begin="0.00" end="3600.00">
+            <destProbReroute id="417377492#2" probability="0.40"/>
         </interval>
     </rerouter>
 </additional>
