@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-07-19 17:56:23 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <entryExitDetector id="detector_centro" pos="107.72,75.06" period="300.00" file="data\detector_centro.xml">
+        <detEntry lane="E2_1" pos="265.02"/>
+        <detEntry lane="E2_0" pos="264.25"/>
+        <detExit lane="E2_1" pos="561.46"/>
+        <detExit lane="E2_0" pos="560.89"/>
+    </entryExitDetector>
+    <entryExitDetector id="detector_entrada" pos="166.51,20.19" period="300.00" file="data\detector_entrada.xml">
+        <detEntry lane="E6_0" pos="73.16"/>
+        <detExit lane="E6_0" pos="172.23"/>
+    </entryExitDetector>
+    <entryExitDetector id="detector_final" pos="234.12,75.38" period="300.00" file="data\detector_final.xml">
+        <detEntry lane="E2_1" pos="659.39"/>
+        <detEntry lane="E2_0" pos="657.87"/>
+        <detExit lane="E5_1" pos="95.05"/>
+        <detExit lane="E5_0" pos="95.92"/>
+    </entryExitDetector>
+    <entryExitDetector id="detector_inicio" pos="4.48,74.67" period="300.00" file="data\detector_inicio.xml">
+        <detEntry lane="E0_1" pos="1474.97"/>
+        <detEntry lane="E0_0" pos="1474.51"/>
+        <detExit lane="E2_1" pos="107.94"/>
+        <detExit lane="E2_0" pos="107.93"/>
+    </entryExitDetector>
+    <entryExitDetector id="detector_salida" pos="50.00,37.37" period="300.00" file="data\detector_salida.xml">
+        <detEntry lane="E3_0" pos="35.65"/>
+        <detExit lane="E3_0" pos="91.02"/>
+    </entryExitDetector>
+    <!-- Other additionals -->
+    <rerouter id="salida" edges="E0 E3" pos="-100.00,10.00" probability="0.13">
+        <interval begin="0.00" end="7200.00">
+            <destProbReroute id="E3" probability="0.30"/>
+        </interval>
+    </rerouter>
+
+<!-- edge data -->
+<edgeData id="E0" freq="300.00"  file="edge\inicio_data.xml"/>
+<edgeData id="E1" freq="300.00" file="edge\inicio_3lane.xml"/>
+<edgeData id="E2" freq="300.00" file="edge\centro_data.xml"/>
+<edgeData id="E3" freq="300.00" file="edge\salida_data.xml"/>
+<edgeData id="E6" freq="300.00" file="edge\entrada_data.xml"/>
+<edgeData id="E4" freq="300.00" file="edge\final_3lane.xml"/>
+<edgeData id="E5" freq="300.00" file="edge\final_data.xml"/>
+
+
+<!-- lane data -->
+<edgeData id="E0_0" freq="300.00"  file="lane\inicio_data_0.xml"/>
+<edgeData id="E0_1" freq="300.00"  file="lane\inicio_data_1.xml"/>
+<edgeData id="E1_2" freq="300.00" file="lane\inicio_3lane_2.xml"/>
+<edgeData id="E1_1" freq="300.00" file="lane\inicio_3lane_1.xml"/>
+<edgeData id="E1_0" freq="300.00" file="lane\inicio_3lane_0.xml"/>
+<edgeData id="E2_1" freq="300.00" file="lane\centro_data_1.xml"/>
+<edgeData id="E2_0" freq="300.00" file="lane\centro_data_0.xml"/>
+<edgeData id="E3_1" freq="300.00" file="lane\salida_data_1.xml"/>
+<edgeData id="E3_0" freq="300.00" file="lane\salida_data_0.xml"/>
+<edgeData id="E6_1" freq="300.00" file="lane\entrada_data_1.xml"/>
+<edgeData id="E6_0" freq="300.00" file="lane\entrada_data_0.xml"/>
+<edgeData id="E4_2" freq="300.00" file="lane\final_3lane_2.xml"/>
+<edgeData id="E4_1" freq="300.00" file="lane\final_3lane_1.xml"/>
+<edgeData id="E4_0" freq="300.00" file="lane\final_3lane_0.xml"/>
+<edgeData id="E5_1" freq="300.00" file="lane\final_data_1.xml"/>
+<edgeData id="E5_0" freq="300.00" file="lane\final_data_0.xml"/>
+</additional>

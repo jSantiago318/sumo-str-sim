@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-08-06 12:14:29 by Eclipse SUMO GUI Version 1.20.0
+<!-- generated on 2024-08-13 02:15:05 by Eclipse SUMO GUI Version 1.20.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -13,7 +13,4 @@
 -->
 
 <meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
-    <interval begin="0.00" end="17403.00" id="ed_1">
-        <edge id="414446177#1" sampledSeconds="210.19" traveltime="0.82" overlapTraveltime="1.06" density="0.76" laneDensity="0.76" occupancy="0.29" waitingTime="0.00" timeLoss="60.05" speed="19.79" speedRelative="0.71" departed="0" arrived="202" entered="202" left="0" laneChangedFrom="0" laneChangedTo="0"/>
-    </interval>
 </meandata>
