@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-08-26 19:41:11 by Eclipse SUMO GUI Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\joshu\Code\sumo-str-sim\abr-28\sumo_config\simulador.net.xml"/>
+        <route-files value="C:\Users\joshu\Code\sumo-str-sim\abr-28\sumo_config\simulador.rou.xml"/>
+        <additional-files value="C:\Users\joshu\Code\sumo-str-sim\abr-28\sumo_config\simulador.add.xml,C:\Users\joshu\Code\sumo-str-sim\abr-28\sumo_config\../../../../Downloads/`sumo/net.med.add.xml"/>
+    </input>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="300.00" id="conteo_salida1" nVehContrib="3" flow="36.00" occupancy="0.19" speed="26.59" harmonicMeanSpeed="26.49" length="5.00" nVehEntered="3"/>
+    <interval begin="300.00" end="600.00" id="conteo_salida1" nVehContrib="10" flow="120.00" occupancy="0.58" speed="29.05" harmonicMeanSpeed="28.96" length="5.00" nVehEntered="10"/>
+    <interval begin="600.00" end="900.00" id="conteo_salida1" nVehContrib="7" flow="84.00" occupancy="0.44" speed="26.93" harmonicMeanSpeed="26.77" length="5.00" nVehEntered="7"/>
+    <interval begin="900.00" end="1102.00" id="conteo_salida1" nVehContrib="13" flow="231.68" occupancy="1.88" speed="18.57" harmonicMeanSpeed="17.07" length="5.00" nVehEntered="13"/>
+</detector>

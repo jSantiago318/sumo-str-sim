@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-08-13 02:32:18 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- MeanDataEdges -->
+    <edgeData id="E0" file="inicio_data.xml"/>
+    <edgeData id="E1" file="inicio_3lane.xml"/>
+    <edgeData id="E2" file="centro_data.xml"/>
+    <edgeData id="E3" file="salida_data.xml"/>
+    <edgeData id="E4" file="final_3lane.xml"/>
+    <edgeData id="E5" file="final_data.xml"/>
+    <edgeData id="E6" file="entrada_data.xml"/>
+</additional>

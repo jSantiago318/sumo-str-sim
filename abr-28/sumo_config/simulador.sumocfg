@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-07-18 13:29:19 by Eclipse SUMO sumo Version 1.20.0
+<!-- generated on 2024-08-26 19:41:08 by Eclipse SUMO sumo Version 1.20.0
 -->
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
@@ -8,7 +8,7 @@
     <input>
         <net-file value="simulador.net.xml"/>
         <route-files value="simulador.rou.xml"/>
-        <additional-files value="simulador.add.xml"/>
+        <additional-files value="simulador.add.xml,../../../../Downloads/`sumo/net.med.add.xml"/>
     </input>
 
 </configuration>
