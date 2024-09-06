@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-08-26 19:41:11 by Eclipse SUMO GUI Version 1.20.0
+<!-- generated on 2024-09-01 16:37:29 by Eclipse SUMO GUI Version 1.20.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -16,5 +16,30 @@
     <interval begin="0.00" end="300.00" id="conteo_salida1" nVehContrib="3" flow="36.00" occupancy="0.19" speed="26.59" harmonicMeanSpeed="26.49" length="5.00" nVehEntered="3"/>
     <interval begin="300.00" end="600.00" id="conteo_salida1" nVehContrib="10" flow="120.00" occupancy="0.58" speed="29.05" harmonicMeanSpeed="28.96" length="5.00" nVehEntered="10"/>
     <interval begin="600.00" end="900.00" id="conteo_salida1" nVehContrib="7" flow="84.00" occupancy="0.44" speed="26.93" harmonicMeanSpeed="26.77" length="5.00" nVehEntered="7"/>
-    <interval begin="900.00" end="1102.00" id="conteo_salida1" nVehContrib="13" flow="231.68" occupancy="1.88" speed="18.57" harmonicMeanSpeed="17.07" length="5.00" nVehEntered="13"/>
+    <interval begin="900.00" end="1200.00" id="conteo_salida1" nVehContrib="25" flow="300.00" occupancy="2.55" speed="17.74" harmonicMeanSpeed="16.33" length="5.00" nVehEntered="25"/>
+    <interval begin="1200.00" end="1500.00" id="conteo_salida1" nVehContrib="24" flow="288.00" occupancy="2.40" speed="18.43" harmonicMeanSpeed="16.68" length="5.00" nVehEntered="24"/>
+    <interval begin="1500.00" end="1800.00" id="conteo_salida1" nVehContrib="32" flow="384.00" occupancy="3.37" speed="17.08" harmonicMeanSpeed="15.83" length="5.00" nVehEntered="32"/>
+    <interval begin="1800.00" end="2100.00" id="conteo_salida1" nVehContrib="13" flow="156.00" occupancy="1.15" speed="21.36" harmonicMeanSpeed="18.90" length="5.00" nVehEntered="13"/>
+    <interval begin="2100.00" end="2400.00" id="conteo_salida1" nVehContrib="11" flow="132.00" occupancy="0.87" speed="23.89" harmonicMeanSpeed="21.17" length="5.00" nVehEntered="11"/>
+    <interval begin="2400.00" end="2700.00" id="conteo_salida1" nVehContrib="23" flow="276.00" occupancy="2.35" speed="17.66" harmonicMeanSpeed="16.32" length="5.00" nVehEntered="23"/>
+    <interval begin="2700.00" end="3000.00" id="conteo_salida1" nVehContrib="20" flow="240.00" occupancy="2.00" speed="18.48" harmonicMeanSpeed="16.71" length="5.00" nVehEntered="20"/>
+    <interval begin="3000.00" end="3300.00" id="conteo_salida1" nVehContrib="24" flow="288.00" occupancy="2.35" speed="19.04" harmonicMeanSpeed="17.02" length="5.00" nVehEntered="24"/>
+    <interval begin="3300.00" end="3600.00" id="conteo_salida1" nVehContrib="9" flow="108.00" occupancy="0.57" speed="26.88" harmonicMeanSpeed="26.54" length="5.00" nVehEntered="9"/>
+    <interval begin="3600.00" end="3900.00" id="conteo_salida1" nVehContrib="17" flow="204.00" occupancy="1.61" speed="19.35" harmonicMeanSpeed="17.62" length="5.00" nVehEntered="17"/>
+    <interval begin="3900.00" end="4200.00" id="conteo_salida1" nVehContrib="11" flow="132.00" occupancy="0.99" speed="20.32" harmonicMeanSpeed="18.53" length="5.00" nVehEntered="11"/>
+    <interval begin="4200.00" end="4500.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4500.00" end="4800.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="4800.00" end="5100.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5100.00" end="5400.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5400.00" end="5700.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="5700.00" end="6000.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="6000.00" end="6300.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="6300.00" end="6600.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="6600.00" end="6900.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="6900.00" end="7200.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="7200.00" end="7500.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="7500.00" end="7800.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="7800.00" end="8100.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="8100.00" end="8400.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
+    <interval begin="8400.00" end="8535.00" id="conteo_salida1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
 </detector>
